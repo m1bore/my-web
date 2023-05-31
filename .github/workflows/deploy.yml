@@ -29,4 +29,4 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }} #variable en la que ese almacena nuestro token para ser usado
         branch: gh-pages  # Rama en la que se desplegará la página web
-        folder: dist  # Carpeta que contiene los archivos estáticos de la página web
+        folder: ./dist  # Carpeta que contiene los archivos estáticos de la página web
